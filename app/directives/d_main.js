@@ -1,6 +1,6 @@
-var stuff = angular.module('Stuff');
+var thaiFonts = angular.module('ThaiFonts');
 
-stuff.directive('thaiInput', function($compile) {
+thaiFonts.directive('thaiInput', function($compile) {
 
    	return {
       	restrict: 'E',

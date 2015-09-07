@@ -1,5 +1,4 @@
-var Stuff = require('./models/m_stuff');
-
+var Example = require('./models/m_example');
 
 module.exports = function(app) {
 
@@ -7,70 +6,24 @@ module.exports = function(app) {
 		res.render('index.ejs');  
 	});
 
-	// GET ALL STUFFS
-	app.get('/api/stuff', function(req, res) {
+	// GET ALL EXAMPLES
+	app.get('/api/examples', function(req, res) {
 
-		Stuff.find({}, function(err, stuffs) {
+		Example.find({}, function(err, examples) {
 			if (err) res.send(err)
-			if (!stuffs) res.send("no stuff");
+			if (!stuffs) res.send("no examples");
 
-			res.json({stuffs: stuffs}); 
+			res.json({examples: examples}); 
 		});
 	});	
 
-	// GET ONE stuff
-	app.get('/api/stuff/:stuff_id', function(req, res) {
-		
-		var options = {
-			type 		: req.params.stuff_id
-		}
-
-		Stuff.find(options, function(err, stuff) {
-			if (err)res.send(err);
-			if (!stuffs) res.send("no stuff");
-
-			res.json({stuff: stuff}); 
-		});
-	});
-
-	// CREATE NEW stuff
-	app.post('/api/stuff', function(req, res) {
-
+	// CREATE NEW example
+	app.post('/api/example', function(req, res) {
 		var options = req.body;
 
-		Stuff.create(options, function(err, stuff) {
+		Example.create(options, function(err, example) {
 			if (err) res.send(err);
-			res.json(stuff);
+			res.json(example);
 		});
-	});
-
-
-	// DELETE a stuff 
-	app.delete('/api/stuff/:stuff_id', function(req, res) {
-		
-		var obj = req.body;
-
- 		Stuff.remove({
-            _id : req.params.stuff_id
-         }, function(err, stuff) {
-            if (err) res.send(err);
-         });
-	});
-
-
-	//UPDATE stuff
-	app.post('/api/stuff/update/:stuff_id', function(req, res){
-
-		var obj = req.body;
-		if (req.params.stuff_id) {
-		    Stuff.update(
-		    	{_id: req.params.stuff_id},
-		    	obj,
-		    	{upsert: true},
-		    	function (err) {
-		    		if (err) res.send(err);
-		    	}
-		    );
-		}
 	});
 };

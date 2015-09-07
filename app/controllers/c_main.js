@@ -1,7 +1,7 @@
 
-var stuff = angular.module('Stuff', ['ngMaterial']);
+var thaiFonts = angular.module('ThaiFonts', ['ngMaterial']);
 
-stuff.controller('MainCtrl', function ($scope, $http, serviceStuff) {
+thaiFonts.controller('MainCtrl', function ($scope, $http) {
 
 	$scope.thaiInput = "สวัสดีครับ";
 
@@ -15,18 +15,5 @@ stuff.controller('MainCtrl', function ($scope, $http, serviceStuff) {
 		"TorsilpWadkhen"
 	];
     
-
-    /*
-	$scope.getExamples = function(examples) {
-		$http.get('/api/examples')
-			.success(function(data) {
-				$scope.stuffs = data.stuffs; 
-			})
-			.error(function(data) {
-				console.log('Error: ' + data);
-			});	
-	};
-	*/
-
 
 });

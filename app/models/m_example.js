@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');  //for using mongo db
 
-module.exports = mongoose.model('Stuff', {
-	title: String
+module.exports = mongoose.model('Example', {
+	content: String
 });
