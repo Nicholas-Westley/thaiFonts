@@ -1,0 +1,703 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"INT",
+				"INTERNAL_ID"
+			],
+			[
+				"name",
+				"first_name"
+			],
+			[
+				"Date",
+				"date"
+			],
+			[
+				"class",
+				"className"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/routes.js",
+			"settings":
+			{
+				"buffer_size": 1533,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/c_main.js",
+			"settings":
+			{
+				"buffer_size": 725,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/index.ejs",
+			"settings":
+			{
+				"buffer_size": 1166,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/directives/d_main.js",
+			"settings":
+			{
+				"buffer_size": 386,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Linter",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 50.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/nicholas/Documents/WestWare/thaiFonts",
+		"/Users/nicholas/Documents/WestWare/thaiFonts/app",
+		"/Users/nicholas/Documents/WestWare/thaiFonts/app/controllers",
+		"/Users/nicholas/Documents/WestWare/thaiFonts/app/directives",
+		"/Users/nicholas/Documents/WestWare/thaiFonts/app/images",
+		"/Users/nicholas/Documents/WestWare/thaiFonts/app/models",
+		"/Users/nicholas/Documents/WestWare/thaiFonts/app/services",
+		"/Users/nicholas/Documents/WestWare/thaiFonts/app/views"
+	],
+	"file_history":
+	[
+		"/Users/nicholas/Documents/WestWare/thaiFonts/app/models/m_stuff.js",
+		"/Users/nicholas/Documents/WestWare/thaiFonts/app/views/index.ejs",
+		"/Users/nicholas/Documents/WestWare/thaiFonts/server.js",
+		"/Users/nicholas/Documents/WestWare/thaiFonts/config/database.js",
+		"/Users/nicholas/Documents/WestWare/thaiFonts/app/directives/d_main.js",
+		"/Users/nicholas/Documents/WestWare/thaiFonts/app/services/s_main.js",
+		"/Users/nicholas/Documents/WestWare/thaiFonts/app/routes.js",
+		"/Users/nicholas/Documents/WestWare/thaiFonts/package.json",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/bio.txt",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/header.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/index.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/footer.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/getPage.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/firebase/index.html",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/index.html",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/iframe.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/iframeSize.php",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/language.php",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/iframeSize.php",
+		"/Users/nicholas/Documents/WestWare/JotForm/Jotform3/js/feedback2.js",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/multiple.html",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/smallInventory.html",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/singleInventory.html",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/inventory.html",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/js/jotform.js",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/import.php",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/collapseTest.html",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/index.php",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/nonsecure.html",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/newtest.php",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/unsecure.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/index.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/olly/orders.csv",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/olly/createUserSql.php",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/olly/createOrderSql.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/olly/notes.rtf",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/firebase/index.html",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/olly/customer_source.csv",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/olly/testCustomerData.csv",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/olly/createUserSql.php",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/olly/testCustomerData.csv",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/js/wContactForm.js",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/sendMessage.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/js/quiz.js",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/test.html",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/sftp-config.json",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/iframe.php",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/iframe.html",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/test.html",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/inline.html",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/jotform.php",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/pointer.html",
+		"/Users/nicholas/Documents/WestWare/www.nicholaswestley.com/projects/jotform/index.html",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/jotform/index.html",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/createPassword.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/js/setupPassword.js",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/jotform/js/showForm.js",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/nzcpb/alex-install.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/shuffleMenu/index.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/shuffleMenu/js/shuffleMenu/shuffleMenu.js",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/starlight/js/starlight/starlight.js",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/opinionate/opinionate/opinionate.js",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/nameGenerator.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/Jotform/combineResultsCSV.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/Jotform/getCSV.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/opinionate/opinionate/saveComment.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/opinionate/opinionate/getComments.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/styles/general.css",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/project.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/nzcpb/databaseCredentials.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/opinionate/index.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/planner/Main.as",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/opinionate/opinionate/opinionate.xml",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/opinionate/css/general.css",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/starlight/index.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/opinionate/css/dialog.css",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/opinionate/loginForm.html",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/opinionate/opinionate/opinionate.css",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/opinionate/opinionate/null.png",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/opinionate/easyLogin.html",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/minionmaker.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/wepub/scripts/imagePreview.js",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/codeignitor/system/plugins/js_calendar_pi.php",
+		"/Users/Nicholas/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/projects/nzcpb/search-results.php",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/js/wFolio.js",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/js/wNavigator.js",
+		"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com/topBar.php",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/includes/submissions.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/pdf-view.php",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/builder/formBuilder.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/builder/logic_wizard.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/builder/condition_wizard.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/jotform.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/index.php",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/sprite/toolbar.css",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/css/style.css",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/dragdrop.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/common.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/wizards/logicWizard.html",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/tiny_mce/plugins/autosave/editor_plugin_src.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/builder/email_wizard.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/builder/payment_wizard.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/my docs/logic_wizard_viewbyfield_editproblems.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/my docs/logic_wizard(view condition by field).js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/my docs/logic_wizard(condition view).js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/admindetails.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/wizards/css/logicWizard.css",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/includes/loginForm.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/admin/settings.php",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/protoplus-ui.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/my docs/logic_wizard(condition ordering).js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/wizards/integrationWizard.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/css/style-less.css",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/css/style-less.less",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/sftp-config.json",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/builder/question_properties.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/admin/drip_emails.php",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/myforms3/sftp-config.json",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/myforms3/js/locale/local_tr-TR-backup.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/includes/myforms2.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/builder/build_source.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/lib/classes/Submission.php",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3.sublime-workspace",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/my docs/fullname toggles.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/builder/question_definitions.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/builder/redirect_wizard.js",
+		"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/css/fancy.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/nicholas/Documents/WestWare/thaiFonts/app",
+			"/Users/Nicholas/Documents/WestWare/www.nicholaswestley.com",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"<open files>",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/myforms3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/myforms3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3,-/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/locale/*,-/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/opt/translate/*,-/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/translations/*,/Users/Nicholas/Documents/WestWare/Freelance/JotForm/myforms3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3,-/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/locale/*,-/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/opt/translate/*,-/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/translations/*",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3,-/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/locale/*,-/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/opt/translate/*",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3,-/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/locale/*,-/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/opt/translate",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3,-/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/locale/*",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3,,-*.php",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3,,-*.js",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3,-*locale*",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3,-*locale",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"<open files>",
+			"",
+			"<open files>",
+			"",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/builder",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3,/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/google/*",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3,/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/google/*.*",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js",
+			"<open files>",
+			"",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/builder",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"default_properties,/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3,-*ext-all.js,-*.css",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3,-*ext-all.js",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3/js/builder",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3,-*.min.js",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"",
+			"<open files>",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm,-*.css",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/landing",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/myforms3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Form-Gallery,/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Form-Gallery",
+			"/Users/Nicholas/Documents/WestWare/Freelance/JotForm/Jotform3",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"angular.module",
+			"\\n",
+			" GBP.*\\n",
+			"\\n.*Withdrawal	Local Funds Transfer for",
+			"webDev",
+			"if(!ifr",
+			"window.handleIFrameMessage",
+			";",
+			"OLLATE utf8_unicode_ci NOT NULL,\n`value` text COLLATE utf8_unicode_ci NOT NULL,\n`created_at` datetime NOT ",
+			"scroll",
+			"showwindow",
+			"JotformFeedback",
+			"feedback2",
+			".debug =",
+			"Insert Duplicated field(s)",
+			"form-tool",
+			"static",
+			"\";",
+			"INSERT INTO ",
+			"meta_id, ",
+			"`",
+			"orders_id",
+			"phone",
+			"`",
+			"\\`",
+			"tmeta`  \\(post_i",
+			"tmeta`  (post_i",
+			"VALUES",
+			"VALUES\\(.*?,",
+			"VALUES\\(.*, ",
+			"VALUES(.*, ",
+			"VALUES(30202, ",
+			"INSERT INTO `wp_wazdf737d3_postmeta`",
+			"5281",
+			"\"\n",
+			"INSERT",
+			"+",
+			"  ",
+			" varchar.*\\n",
+			" NOT NULL DEFAULT '0'",
+			"`",
+			"Edit	Delete	.*	5281	",
+			"Edit	Delete	30225	5281	",
+			"password",
+			")\" . \"<br/>\";",
+			"billing_",
+			"`",
+			"Question names",
+			"emailInput",
+			"nicholas",
+			"script",
+			"widgetr",
+			"widgets",
+			"widget",
+			"number",
+			"INsert",
+			"menuItems",
+			"shuffleMenu",
+			"form.css",
+			"getData",
+			"print",
+			"has",
+			"post",
+			"sprintf",
+			"error",
+			"Please wait while we redirect",
+			"$url",
+			"insio",
+			"after",
+			"font-s",
+			"july",
+			"xmlFilesaveFile",
+			"opt",
+			"form",
+			"login-popup",
+			"login-box",
+			"$('#login-box')",
+			"login-box",
+			"dialog-box",
+			"hover",
+			"document",
+			"pointer",
+			"hover",
+			"webkit-any",
+			"save",
+			"results",
+			"unselected",
+			"ex10",
+			"color",
+			"img",
+			"magnifying",
+			"formTitle",
+			"(item.getProperty('t",
+			"item.getProperty('",
+			"item.getProperty('text')\n",
+			"item",
+			"getUsableElements",
+			"payment",
+			"up",
+			"grad",
+			"argument",
+			"editMode",
+			"edit",
+			"Total:",
+			"cleanValue ",
+			"cleanValue",
+			"total",
+			"createSavedConditions",
+			"cond.action",
+			"cond.terms",
+			"cond.action",
+			"(cond.action)",
+			"entiti",
+			"getProperty",
+			"create.*line",
+			"new.*line",
+			"term-",
+			"item",
+			"cond-line",
+			"action",
+			"actionText",
+			"action-text",
+			"getProperty",
+			"getproperty",
+			"createSavedConditions",
+			"conditionsForField",
+			"id",
+			"createSavedConditions"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"/",
+			"GBrTl",
+			"nicholas"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								963,
+								963
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/c_main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								425,
+								403
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/index.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1014,
+								1014
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/directives/d_main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								339,
+								339
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 240.0
+	},
+	"pinned_build_system": "",
+	"project": "stuff.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

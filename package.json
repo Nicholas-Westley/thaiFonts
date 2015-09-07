@@ -1,0 +1,15 @@
+{
+  "name": "Runtimer",
+  "version": "0.0.0",
+  "description": "Angular Template",
+  "main": "server.js",
+  "author": "Nicholas Westley",
+  "dependencies": {
+    "angular-material": "^0.10.1",
+    "body-parser": "~1.5.2",
+    "express": "~4.7.2",
+    "method-override": "~2.1.2",
+    "mongoose": "~3.6.2",
+    "morgan": "~1.2.2"
+  }
+}

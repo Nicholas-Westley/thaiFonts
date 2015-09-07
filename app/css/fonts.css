@@ -1,0 +1,35 @@
+@font-face {
+    font-family:"BangLiKoSaNa";
+    src: url("../fonts/BangLi-Ko-Sa-Na.ttf");
+}
+
+@font-face {
+    font-family:"Suphanburi";
+    src: url("../fonts/Suphanburi.ttf");
+}
+
+@font-face {
+    font-family:"Akhanake";
+    src: url("../fonts/Akhanake.ttf");
+}
+
+
+@font-face {
+    font-family:"SabuyDee";
+    src: url("../fonts/SabuyDee.ttf");
+}
+
+@font-face {
+    font-family:"Circular";
+    src: url("../fonts/Circular.ttf");
+}
+
+@font-face {
+    font-family:"SarunsManorah";
+    src: url("../fonts/SarunsManorah.ttf");
+}
+
+@font-face {
+    font-family:"TorsilpWadkhen";
+    src: url("../fonts/TorsilpWadkhen.ttf");
+}
