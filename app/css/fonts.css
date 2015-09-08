@@ -52,54 +52,63 @@
 }
 @font-face {
     font-family:"BangLiKoSaNa";
+    src:url("../fonts/BangLi-Ko-Sa-Na.eot"); 
     src: url("../fonts/BangLi-Ko-Sa-Na.ttf");
 }
 
 @font-face {
     font-family:"kruengprung-Italic";
+    src: url("../fonts/kruengprung-Italic.eot");
     src: url("../fonts/kruengprung-Italic.ttf");
 }
 
 @font-face {
     font-family:"Jeans";
+    src: url("../fonts/Jeans.eot");
     src: url("../fonts/Jeans.ttf");
 }
 
 @font-face {
     font-family:"Suphanburi";
+    src: url("../fonts/Suphanburi.eot");
     src: url("../fonts/Suphanburi.ttf");
 }
-
 @font-face {
     font-family:"Akhanake";
+    src: url("../fonts/Akhanake.eot");
     src: url("../fonts/Akhanake.ttf");
 }
 
-
 @font-face {
     font-family:"SabuyDee";
+    src: url("../fonts/SabuyDee.eot");
     src: url("../fonts/SabuyDee.ttf");
 }
 
 @font-face {
     font-family:"Circular";
+    src: url("../fonts/Circular.eot");
     src: url("../fonts/Circular.ttf");
 }
 
 @font-face {
     font-family:"SarunsManorah";
+    src: url("../fonts/SarunsManorah.eot");
     src: url("../fonts/SarunsManorah.ttf");
 }
 
 @font-face {
     font-family:"TorsilpWadkhen";
+    src: url("../fonts/TorsilpWadkhen.eot");
     src: url("../fonts/TorsilpWadkhen.ttf");
 }
 @font-face {
     font-family:"Arabica-Italic";
+    src: url("../fonts/Arabica-Italic.eot");
     src: url("../fonts/Arabica-Italic.ttf");
 }
 @font-face {
     font-family:"Kunlasatri";
+    src: url("../fonts/Kunlasatri.eot");
     src: url("../fonts/Kunlasatri.ttf");
 }
