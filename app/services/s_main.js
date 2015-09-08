@@ -5,9 +5,9 @@ thaiFonts.factory("test", function() {
         compareInput: function(question, answer) {
         	if(typeof question != "string" || typeof answer != "string" || answer.length == 0) return question;
 
-        	let output = "";
+        	var output = "";
 
-        	for (let i=0; i<question.length; i++) {
+        	for (var i=0; i<question.length; i++) {
         		if(i >= answer.length) { //finished input
         			output += question.substr(i);
         			break;

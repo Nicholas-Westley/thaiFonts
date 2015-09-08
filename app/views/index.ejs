@@ -48,10 +48,10 @@
 
 				    </md-content>
 				</md-tab>
-      			<md-tab label="Test">
+      			<md-tab label="Test" ng-click="testTab()">
         			<md-content class="md-padding" style="padding-top: 30px;">
         				<md-input-container md-no-float>
-			          		<input ng-model="testAnswer" style="font-size: 20px" ng-keyup="enterTestText($event)" placeholder="Input Test Shown Below. Press Return For Next">
+			          		<input ng-model="testAnswer" id="testAnswer" style="font-size: 20px" ng-keyup="enterTestText($event)" placeholder="Input Test Shown Below. Press Return For Next">
 			        	</md-input-container>
 
 			        	<h1 style="font-family:'{{testFont}}';" class="example" ng-bind-html="testQuestion"></h1>

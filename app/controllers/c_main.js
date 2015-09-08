@@ -86,6 +86,16 @@ thaiFonts.controller('MainCtrl', function ($scope, $http, $mdToast, $animate, te
 		$scope.testQuestion = $scope.examples[Math.floor(Math.random()*$scope.examples.length)].content;
 		$scope.testQuestionOriginal = $scope.testQuestion;
 	};
+
+
+	//tabs - 
+	$scope.testTab = function() {
+		console.log("focusing");
+		console.log($("#testAnswer"));
+		setTimeout(function() {
+			$("#testAnswer").select();
+		}, 200);
+	}
 });
 
 
