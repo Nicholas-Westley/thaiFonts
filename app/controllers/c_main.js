@@ -5,6 +5,7 @@ thaiFonts.controller('MainCtrl', function ($scope, $http, $mdToast, $animate) {
 	
 	$scope.thaiInput = "";
 	$scope.newExampleText = ""
+	$scope.showApp = false;
 	$scope.fonts = [
 		"Suphanburi",
 		"BangLiKoSaNa",
@@ -14,12 +15,16 @@ thaiFonts.controller('MainCtrl', function ($scope, $http, $mdToast, $animate) {
 		"SarunsManorah",
 		"TorsilpWadkhen"
 	];
+	$scope.examples = [];
 
 	$scope.examples = [];
 	$scope.getExamples = function() {
 		$http.get('/api/examples/')
 			.success(function(data) {
-				console.log(data);
+				$scope.examples = data;
+				$scope.thaiInput = $scope.examples[Math.floor(Math.random()*$scope.examples.length)].content;
+				$scope.showApp = true;
+				$scope.selectInput();
 			})
 			.error(function(data) {
 				console.log('Error: ' + data);
@@ -53,7 +58,6 @@ thaiFonts.controller('MainCtrl', function ($scope, $http, $mdToast, $animate) {
 				console.log('Error: ' + data);
 			});
 	};
-
 });
 
 
