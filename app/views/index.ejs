@@ -22,22 +22,45 @@
 
 
 <body ng-app="ThaiFonts" ng-controller="MainCtrl">
-    
-	<div style="width: 1000px; margin:auto; margin-top: 20px;">
-		
-	<ng-md-icon icon="question_answer" size="22px"></ng-md-icon> 
 
-		<div layout="column">
-  			<md-content md-theme="docs-dark" layout-padding layout="row" layout-sm="column">
-				<md-input-container md-no-float>
-          			<input ng-model="thaiInput" style="font-size: 20px" placeholder="Input Thai">
-        		</md-input-container>
-        	</md-content>
-        </div>
+	<div>
+  		<md-content class="md-padding">
+    		<md-tabs md-dynamic-height md-border-bottom>
+      			<md-tab label="Examples">
+        			<md-content class="md-padding">
+          					
+          				<br/>
+   			  			
+						<md-input-container md-no-float>
+		          			<input ng-model="thaiInput" style="font-size: 20px" placeholder="Input Thai Text" setup-me>
+		        		</md-input-container>
+		        
+				        <div class="examples" ng-repeat="font in fonts">
+				        	<h1 style="font-family:'{{font}}';" class="example">{{thaiInput}}</h1>
+				        </div>
 
-        <div class="examples" ng-repeat="font in fonts">
-        	<h1 style="font-family:'{{font}}';" class="example">{{thaiInput}}</h1>
-        </div>
+				    </md-content>
+				</md-tab>
+      			<md-tab label="Quiz">
+        			<md-content class="md-padding">
+
+				    </md-content>
+				</md-tab>
+				<md-tab label="Add Examples">
+        			<md-content class="md-padding">
+
+        				<br/>
+
+        				<md-input-container md-no-float>
+		          			<input ng-model="newExampleText" style="font-size: 20px" placeholder="Input New Thai Example">
+		        		</md-input-container>
+		        		
+		        		<md-button class="md-raised" ng-click="addExample()">Add Example</md-button>
+
+				    </md-content>
+				</md-tab>
+			</md-tabs>
+		</md-content>
 	</div>
 
 

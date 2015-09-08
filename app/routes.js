@@ -10,10 +10,11 @@ module.exports = function(app) {
 	app.get('/api/examples', function(req, res) {
 
 		Example.find({}, function(err, examples) {
+			
 			if (err) res.send(err)
-			if (!stuffs) res.send("no examples");
+			if (!examples) res.send("no examples");
 
-			res.json({examples: examples}); 
+			res.json(examples); 
 		});
 	});	
 
