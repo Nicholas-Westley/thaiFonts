@@ -29,15 +29,18 @@
       			<md-tab label="Type">
         			<md-content class="md-padding">
           					
-          				<br/>
-   			  			
-						<md-input-container md-no-float>
-		          			<input ng-model="thaiInput" style="font-size: 20px" placeholder="Input Thai Text" setup-me>
-		        		</md-input-container>
-		        
-				        <div class="examples" ng-repeat="font in fonts">
-				        	<h1 style="font-family:'{{font}}';" class="example">{{thaiInput}}</h1>
-				        </div>
+
+          				<md-progress-linear md-mode="indeterminate" ng-show="!showApp"></md-progress-linear>
+
+          				<div ng-show="showApp" style="padding-top: 20px;">
+							<md-input-container md-no-float>
+			          			<input ng-model="thaiInput" style="font-size: 20px" placeholder="Input Thai Text" setup-me>
+			        		</md-input-container>
+			        
+					        <div class="examples" ng-repeat="font in fonts">
+					        	<h1 style="font-family:'{{font}}';" class="example">{{thaiInput}}</h1>
+					        </div>
+					    </div>
 
 				    </md-content>
 				</md-tab>
