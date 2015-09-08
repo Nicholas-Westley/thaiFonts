@@ -1,6 +1,17 @@
+
 @font-face {
     font-family:"BangLiKoSaNa";
     src: url("../fonts/BangLi-Ko-Sa-Na.ttf");
+}
+
+@font-face {
+    font-family:"kruengprung-Italic";
+    src: url("../fonts/kruengprung-Italic.ttf");
+}
+
+@font-face {
+    font-family:"Jeans";
+    src: url("../fonts/Jeans.ttf");
 }
 
 @font-face {
@@ -32,4 +43,12 @@
 @font-face {
     font-family:"TorsilpWadkhen";
     src: url("../fonts/TorsilpWadkhen.ttf");
+}
+@font-face {
+    font-family:"Arabica-Italic";
+    src: url("../fonts/Arabica-Italic.ttf");
+}
+@font-face {
+    font-family:"Kunlasatri";
+    src: url("../fonts/Kunlasatri.ttf");
 }

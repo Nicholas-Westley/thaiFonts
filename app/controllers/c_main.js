@@ -8,13 +8,17 @@ thaiFonts.controller('MainCtrl', function ($scope, $http, $mdToast, $animate, te
 	$scope.newExampleText = ""
 	$scope.showApp = false;
 	$scope.fonts = [
-		"Suphanburi",
-		"BangLiKoSaNa",
 		"Akhanake",
+		"kruengprung-Italic",
+		"Jeans",
+		"BangLiKoSaNa",
 		"SabuyDee",
 		"Circular",
 		"SarunsManorah",
-		"TorsilpWadkhen"
+		"TorsilpWadkhen",
+		"Suphanburi",
+		"Arabica-Italic",
+		"Kunlasatri"
 	];
 	$scope.examples = [];
 
