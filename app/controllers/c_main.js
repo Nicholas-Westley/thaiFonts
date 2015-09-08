@@ -8,6 +8,16 @@ thaiFonts.controller('MainCtrl', function ($scope, $http, $mdToast, $animate, te
 	$scope.newExampleText = ""
 	$scope.showApp = false;
 	$scope.fonts = [
+		"Anchan",
+		"CS-Cheangkhan",
+		"DRjoyful",
+		"KC Nightmare",
+		"PL-EDIT1",
+		"Parggarfont",
+		"kt_smarn seree",
+		"kt_smarn",
+		"rte_contrast_eta",
+		"AlsmileArounvilas",
 		"Akhanake",
 		"kruengprung-Italic",
 		"Jeans",

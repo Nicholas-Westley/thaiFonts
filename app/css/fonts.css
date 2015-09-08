@@ -1,5 +1,56 @@
 
 @font-face {
+    font-family:"Anchan";
+    src: url("../fonts/Anchan.ttf");
+}
+
+@font-face {
+    font-family:"CS-Cheangkhan";
+    src: url("../fonts/CS-Cheangkhan.ttf");
+}
+
+@font-face {
+    font-family:"DRjoyful";
+    src: url("../fonts/DRjoyful.ttf");
+}
+
+@font-face {
+    font-family:"KC Nightmare";
+    src: url("../fonts/KC Nightmare.ttf");
+}
+
+@font-face {
+    font-family:"PL-EDIT1";
+    src: url("../fonts/PL-EDIT1.ttf");
+}
+
+@font-face {
+    font-family:"Parggarfont";
+    src: url("../fonts/Parggarfont.ttf");
+}
+
+@font-face {
+    font-family:"kt_smarn seree";
+    src: url("../fonts/kt_smarn seree.ttf");
+}
+
+@font-face {
+    font-family:"rte_contrast_eta";
+    src: url("../fonts/rte_contrast_eta.ttf");
+}
+
+@font-face {
+    font-family:"kt_smarn";
+    src: url("../fonts/kt_smarn.ttf");
+}
+
+
+
+@font-face {
+    font-family:"AlsmileArounvilas";
+    src: url("../fonts/AlsmileArounvilas.ttf");
+}
+@font-face {
     font-family:"BangLiKoSaNa";
     src: url("../fonts/BangLi-Ko-Sa-Na.ttf");
 }
