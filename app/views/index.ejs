@@ -17,7 +17,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.10.0/angular-material.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/test.css">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css" />
+
 
 </head>
 
@@ -46,7 +48,13 @@
 				    </md-content>
 				</md-tab>
       			<md-tab label="Test">
-        			<md-content class="md-padding">
+        			<md-content class="md-padding" style="padding-top: 30px;">
+        				<md-input-container md-no-float>
+			          		<input ng-model="testAnswer" style="font-size: 20px" ng-keyup="enterTestText($event)" placeholder="Input Test Shown Below. Press Return For Next">
+			        	</md-input-container>
+
+			        	<h1 style="font-family:'{{testFont}}';" class="example" ng-bind-html="testQuestion"></h1>
+
 
 				    </md-content>
 				</md-tab>
@@ -74,8 +82,9 @@
     </div>
 
 
-	
+	<!--ANGULAR-->
     <script src="/angular/angular.js"></script>
+    <script src="/angular-sanitize/angular-sanitize.js"></script>
     <script src="/angular-aria/angular-aria.js"></script>
     <script src="/angular-animate/angular-animate.js"></script>
     <script src="/angular-material/angular-material.js"></script>

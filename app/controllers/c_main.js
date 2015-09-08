@@ -1,7 +1,8 @@
+'use strict';
 
-var thaiFonts = angular.module('ThaiFonts', ['ngMaterial']);
+var thaiFonts = angular.module('ThaiFonts', ['ngMaterial', 'ngSanitize']);
 
-thaiFonts.controller('MainCtrl', function ($scope, $http, $mdToast, $animate) {
+thaiFonts.controller('MainCtrl', function ($scope, $http, $mdToast, $animate, test) {
 	
 	$scope.thaiInput = "";
 	$scope.newExampleText = ""
@@ -17,12 +18,15 @@ thaiFonts.controller('MainCtrl', function ($scope, $http, $mdToast, $animate) {
 	];
 	$scope.examples = [];
 
+
 	$scope.examples = [];
 	$scope.getExamples = function() {
 		$http.get('/api/examples/')
 			.success(function(data) {
 				$scope.examples = data;
 				$scope.thaiInput = $scope.examples[Math.floor(Math.random()*$scope.examples.length)].content;
+				$scope.nextQuestion();
+
 				$scope.showApp = true;
 				$scope.selectInput();
 			})
@@ -57,6 +61,26 @@ thaiFonts.controller('MainCtrl', function ($scope, $http, $mdToast, $animate) {
 			.error(function(data) {
 				console.log('Error: ' + data);
 			});
+	};
+
+	//TEST
+	$scope.testAnswer = "";
+	$scope.testQuestion = "";
+	$scope.testQuestionOriginal = "";
+	
+
+	$scope.enterTestText = function(event) {
+		if(event.keyCode === 13) {
+			$scope.nextQuestion();
+		} else {
+			$scope.testQuestion = test.compareInput($scope.testQuestionOriginal, $scope.testAnswer);
+		}
+	};
+	$scope.nextQuestion = function() {
+		$scope.testAnswer = "";
+		$scope.testFont = $scope.fonts[Math.floor(Math.random()*$scope.fonts.length)];
+		$scope.testQuestion = $scope.examples[Math.floor(Math.random()*$scope.examples.length)].content;
+		$scope.testQuestionOriginal = $scope.testQuestion;
 	};
 });
 
